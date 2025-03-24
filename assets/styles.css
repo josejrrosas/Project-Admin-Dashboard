@@ -1,0 +1,13 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100%;
+}
+
+#left-panel{
+    background-color: lightskyblue;
+}
+
+#main{
+    background-color: aliceblue;
+}
