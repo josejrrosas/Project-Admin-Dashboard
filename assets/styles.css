@@ -1,13 +1,50 @@
-#container{
+#container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    height: 100%;
-}
+    height: 100vh;
+  }
+  
+  /* -------LEFT SIDE------- */
+  #left-panel {
+    background-color: #26a7de;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+    height: 100vh;
+  }
+  
+  #logo {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%; 
+    max-height: 100%; 
+    overflow: hidden;
+    padding: 5% 0 0 5%;
+  }
+  
+  #logo-img {
+    height: 30%;
+    padding-right: 2%;
+  }
 
-#left-panel{
-    background-color: lightskyblue;
-}
+  #dash-logo{
+    height:30%;
+    font-size: 4vh;
+    padding:0;
+    line-height: 1.2;
+  }
 
-#main{
-    background-color: aliceblue;
-}
+  .left-nav{
+    background-color: red;
+  }
+
+  #left-panel > footer{
+    background-color: aquamarine;
+  }
+  
+  /* -------RIGHT SIDE------- */
+  #main {
+    background-color: lightcoral;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
