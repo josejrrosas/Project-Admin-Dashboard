@@ -12,7 +12,7 @@
     height: 100vh;
   }
  
-  #top-left-panel {
+  #logo-panel {
     display: block;
     background-color: orange;
   }
@@ -21,21 +21,24 @@
     display: flex;
     flex-wrap: nowrap;
     padding: 5% 0 0 5%;
-    height: 20%;
+    max-height: 100%;
+    align-items: center;
   }
 
   #logo-img {
     padding:0 2% 0 0;
+    overflow: hidden;
+    height: 4vh;
     filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(180deg) brightness(100%) contrast(100%);
   }
 
-  #dash-logo{
+  #logo-brand{
     font-size: 4vh;
-    line-height: 1.3;
     color:white;
+    padding-bottom: 1.5%;
   }
 /* navigation menu */
-  .left-nav > nav{
+  .left-nav{
     background-color: red;
     color:white;
   }
