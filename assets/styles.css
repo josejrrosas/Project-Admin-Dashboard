@@ -8,7 +8,7 @@
   #left-panel {
     background-color: #26a7de;
     display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 3fr 4fr;
     height: 100vh;
   }
  
@@ -46,11 +46,23 @@
   .left-nav > ul{
     list-style-type: none;
     padding: 5% 0 0 5%;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    line-height: 1.8;
+  }
+
+  .left-nav > ul > li{
+    display: flex;
+    align-items: center;
   }
 
   #left-panel > footer{
     background-color: rgb(50, 137, 108);
+  }
+
+  .left-nav-img{
+    height: 3vh;
+    padding-right: 10%;
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(180deg) brightness(100%) contrast(100%);
   }
   
   /* -------RIGHT SIDE------- */
