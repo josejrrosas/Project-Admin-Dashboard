@@ -71,5 +71,8 @@
     background-color: lightcoral;
     height: 100vh;
     overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
   }
   
