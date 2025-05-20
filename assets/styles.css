@@ -6,7 +6,7 @@
 
 /* -------LEFT SIDE------- */
 #left-panel {
-  background-color: #26a7de;
+  background-color: #269bde;
   display: grid;
   grid-template-rows: 1fr 4fr 6fr;
   height: 100vh;
@@ -70,7 +70,7 @@
 
 /* -------RIGHT SIDE------- */
 #main {
-  background-color: lightcoral;
+  background-color: rgb(203, 212, 223);
   height: 100vh;
   overflow: hidden;
   display: grid;
