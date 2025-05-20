@@ -78,7 +78,7 @@
   height: 100vh;
 }
 
-/* Top of Right Side */
+/* Header */
 #top {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -91,7 +91,7 @@
   justify-content: space-between;
   align-items: center;
 }
-
+/* Header Top left Side */
 #top-left {
   display: flex;
   flex-direction: row;
@@ -112,7 +112,7 @@
   border: 1px none #cccccc;
   height: 1.4rem;
 }
-
+/* Header Top Right Side */
 #top-right {
   font-size: 0.9rem;
   font-weight: 700;
@@ -135,9 +135,43 @@
   border-radius: 50%;
 }
 
+/* Header bottom half */
+
 #bottom-half {
-  background-color: blue;
+  background-color: rgb(221, 255, 158);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Header bottom left Side */
+
+#bottom-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#greeting{
+  display: flex;
+  flex-direction: column;
+}
+
+#greeting > p{
+  font-size: .65em;
+  font-weight: 600;
+}
+
+#greeting > h1{
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+#big-profile-pic {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1.5rem;
+  background-color: rgb(255, 230, 0);
+  border-radius: 50%;
 }
