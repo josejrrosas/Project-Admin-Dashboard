@@ -80,13 +80,13 @@
 
 /* Header */
 #top {
+  background-color: white;
   display: grid;
   grid-template-rows: 1fr 1fr;
   overflow: hidden;
 }
 
 #top-half {
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,10 +138,10 @@
 /* Header bottom half */
 
 #bottom-half {
-  background-color: rgb(221, 255, 158);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 /* Header bottom left Side */
@@ -174,4 +174,27 @@
   margin: 0 1.5rem;
   background-color: rgb(255, 230, 0);
   border-radius: 50%;
+}
+
+/* Header bottom right Side */
+#bottom-right > ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem;
+  gap: 1rem;  
+}
+
+#bottom-right > ul > li{
+  display: flex;
+  background-color: #269bde;
+  color:white;
+  font-size: .7em;
+  font-weight: 500;
+  border-radius: 9999px;
+  list-style: none;
+  min-width: 4.5rem; 
+  padding: .4rem 1.2rem;
+  justify-content: center;
+  align-items: center;
 }
