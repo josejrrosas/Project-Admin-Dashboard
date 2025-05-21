@@ -4,7 +4,7 @@ This is a dashboard layout project built as part of [The Odin Project's](https:/
 
 ## 🔗 Live Preview
 
-[View the live project here](https://github.com/josejrrosas/Project-Admin-Dashboard)
+[View the live project here]( https://josejrrosas.github.io/Project-Admin-Dashboard/)
 
 
 ---
